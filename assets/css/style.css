@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  height: 20vh;
+  background-color: white;
+  padding: 15px 100px 15px 15px;
+  align-items: center;
+  font-size: 2rem;
+  justify-content: space-between;
+  background-color: #ffffb8;
+}
+
+header > img {
+  display: block;
+  max-height: 100%;
+}
+
+.header-menu {
+  display: flex;
+  gap: 50px;
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: #cf1717;
+  font-weight: bold;
+}
+
+.header-menu a:hover {
+  text-decoration: underline;
+}
+
+.tela-ativa {
+  text-decoration: underline;
+}
+
+main {
+  width: 62.5vw;
+  margin: 50px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.192);;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #cf1717;
+  text-align: center;
+}
