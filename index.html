@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pra Já</title>
+    <title>Lanchonete e Bar Pra Já</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -13,7 +13,11 @@
 
   <body>
     <header>
-      <a href="./index.html"><img src="./assets/img/logo.png" alt="Logo" /></a>
+      <div class="logo">
+        <a href="./index.html"
+          ><img src="./assets/img/logo.png" alt="Logo"
+        /></a>
+      </div>
       <nav>
         <ul class="header-menu">
           <li class="cardapio"><a href="./pages/cardapio.html">Cardápio</a></li>
@@ -21,14 +25,68 @@
           <li class="contato"><a href="./pages/contato.html">Contato</a></li>
           <li class="carrinho">
             <a href="./pages/carrinho.html"
-              ><i class="fa-solid fa-cart-shopping"></i><span>R$10,00</span></a
+              ><i class="fa-solid fa-cart-shopping"></i>&nbsp<span
+                >R$10,00</span
+              ></a
             >
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <article></article>
+      <article>
+        <h1>Olá, seja bem vindo(a)!</h1>
+        <p>A Lanchonete e Bar Pra Já fica muito feliz em recebê-lo(a)!</p>
+        <p>
+          Temos em nosso cardápio diversos lanches artesanais, todos feitos com
+          muito carinho para que possa experimentar não apenas um lanche, mas
+          sim que tenha uma nova experiência gastronômica.
+        </p>
+
+        <div class="carrossel-container">
+          <div class="carrossel desaparecer">
+            <img src="./assets/img/lanches/x-salad.jpg" />
+            <div class="texto">X-Salad</div>
+          </div>
+
+          <div class="carrossel desaparecer">
+            <img src="./assets/img/lanches/x-salad-bacon.jpg" />
+            <div class="texto">X-Salad Bacon</div>
+          </div>
+
+          <div class="carrossel desaparecer">
+            <img src="./assets/img/lanches/double-burger-sauce.jpg" />
+            <div class="texto">Double Burger Sauce</div>
+          </div>
+
+          <div class="carrossel desaparecer">
+            <img src="./assets/img/lanches/double-cheddar.jpg" />
+            <div class="texto">Double Cheddar</div>
+          </div>
+
+          <div class="carrossel desaparecer">
+            <img src="./assets/img/lanches/triple-burger-salad.jpg" />
+            <div class="texto">Triple Burger Salad</div>
+          </div>
+
+          <div class="carrossel desaparecer">
+            <img src="./assets/img/lanches/veggie-burger.jpg" />
+            <div class="texto">Veggie Burger</div>
+          </div>
+        </div>
+        <br />
+
+        <div class="pontos">
+          <span class="ponto"></span>
+          <span class="ponto"></span>
+          <span class="ponto"></span>
+          <span class="ponto"></span>
+          <span class="ponto"></span>
+          <span class="ponto"></span>
+        </div>
+      </article>
     </main>
+
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
