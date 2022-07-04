@@ -11,18 +11,15 @@ body {
 header {
   display: flex;
   height: 15vh;
-  background-color: white;
   padding: 15px 50px 15px 15px;
   align-items: center;
   font-size: 2rem;
   justify-content: space-between;
-  background-color: #ffffb8;
+  background-color: white;
 }
 
 .logo {
   height: 100%;
-  background-color: white;
-  padding: 5px;
 }
 
 header img {
@@ -36,22 +33,23 @@ header img {
 
 .header-menu a {
   text-decoration: none;
-  color: #cf1717;
+  color: black;
   font-weight: bold;
 }
 
 .header-menu a:hover {
   text-decoration: underline;
   text-decoration-thickness: 3px;
-}
-
-nav span {
-  font-size: 1.5rem;
+  text-decoration-color: #cf1717;
 }
 
 .tela-ativa {
   text-decoration: underline;
   text-decoration-thickness: 3px;
+}
+
+nav span {
+  font-size: 1.5rem;
 }
 
 main {
@@ -107,7 +105,7 @@ strong {
   margin: auto;
 }
 
-.texto {
+.legenda {
   color: #f2f2f2;
   font-size: 1.5rem;
   font-weight: bold;
@@ -142,8 +140,12 @@ strong {
 }
 
 @keyframes desaparecer {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .happy-hour {
