@@ -66,7 +66,7 @@ main {
 
 article {
   display: block;
-  width: 62.5vw;
+  width: 1000px;
   margin: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding: 15px;
@@ -158,7 +158,7 @@ strong {
 
 .item-cardapio {
   display: grid;
-  grid-template-columns: 250px 920px;
+  grid-template-columns: 250px 720px;
   border: solid 1px black;
   border-radius: 5px;
   height: 200px;
@@ -196,6 +196,7 @@ strong {
 .descricao-item-cardapio > p {
   font-size: 1.2rem;
 }
+
 .descricao-item-cardapio > h3 {
   font-size: 2rem;
   font-weight: bold;
