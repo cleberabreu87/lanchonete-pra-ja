@@ -123,8 +123,14 @@ strong {
   text-shadow: 1px 1px #000000;
 }
 
+.ordenacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .pontos {
-  text-align: center;
+margin: 0 5px;
 }
 
 .ponto {
@@ -153,6 +159,12 @@ strong {
   to {
     opacity: 1;
   }
+}
+
+.botoes-carrossel {
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 /* Página Cardápio */
