@@ -31,6 +31,10 @@ header img {
   gap: 50px;
 }
 
+.dropdown {
+  display: none;
+}
+
 .header-menu a {
   text-decoration: none;
   color: black;
@@ -212,4 +216,88 @@ strong {
   display: block;
   max-width: 40vw;
   margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  html {
+    width: 100%;
+    padding: 0;
+  }
+
+  body {
+    width: 100%;
+    padding: 0;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  .dropdown {
+    display: inline;
+  }
+
+  .menu-hamburguer {
+    display: inline;
+    background-color: white;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+  }
+
+  main {
+    width: 100%;
+    height: 100%;
+    height: 100%;
+    padding: 15px;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin: auto;
+  }
+
+  article {
+    box-shadow: none;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .carrossel img {
+    max-width: 100%;
+  }
+
+  .item-cardapio {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .imagem-cardapio {
+    display: block;
+  }
+
+  .descricao-item-cardapio {
+    display: flex;
+    gap: 15px;
+  }
+
 }
