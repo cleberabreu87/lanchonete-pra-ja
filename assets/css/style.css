@@ -105,6 +105,7 @@ strong {
   height: 100%;
   margin: auto;
   border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .legenda {
@@ -168,6 +169,8 @@ strong {
 
 .item-cardapio:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.884);
+  transform: scale(1.1);
 }
 
 .imagem-cardapio {
