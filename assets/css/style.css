@@ -104,6 +104,7 @@ strong {
   display: block;
   height: 100%;
   margin: auto;
+  border-radius: 5px;
 }
 
 .legenda {
