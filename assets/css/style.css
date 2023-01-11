@@ -39,17 +39,26 @@ header img {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  position: relative;
 }
 
-.header-menu a:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
-  text-decoration-color: #cf1717;
+.header-menu a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 0;
+  margin-top: 4px;
+  background: #cf1717;
+  transition: 0.3s;
 }
 
-.tela-ativa {
-  text-decoration: underline;
-  text-decoration-thickness: 3px;
+.header-menu a:hover:after {
+  width: 100%;
+}
+
+.tela-ativa a {
+  color: #cf1717;
 }
 
 nav span {
